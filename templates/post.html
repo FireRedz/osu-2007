@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Post{% endblock %}
+
+
+{%block content%}
+<div id="article">
+    <span class="subject">Make a post on news</span>
+</div>
+<center>
+    <form method="POST" action="/post">
+        <label>Post title</label><br>
+        <input tabindex="1" type="text" name="title"><br>
+        <label>Post by</label><br>
+        <input tabindex="1" type="text" name="by"><br>
+        <label>Post text</label><br>
+        <textarea tabindex="1" type="text" name="post"></textarea><br>
+
+        <button tabindex="4" type="submit">Submit</button>
+    </form>
+</center>
+
+
+{%endblock%}

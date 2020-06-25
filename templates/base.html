@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="/static/css/osu.css">
+    <title>{% block title %}{% endblock %} | osu-classic</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="description" content="osu! An Ouendan / Elite Beat Agents Windows Simulator"/>
+    <meta name="keywords" content="osu, ouendan, elite, beat, agents, ds, windows, game, xna, ddr, beatmania"/>
+    {% endblock %}
+</head>
+
+<body>
+    <div id="header"><span id="osu><a href=" index.php">
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://web.archive.org/web/20071228041552oe_/http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="108" height="104" id="osu" align="middle">
+        <param name="allowScriptAccess" value="sameDomain"/>
+        <param name="movie" value="osu.swf"/><param name="quality" value="high"/><param name="wmode" value="transparent"/><param name="bgcolor" value="#eae8e3"/><embed src="/static/images/osu.swf" quality="high" wmode="transparent" bgcolor="#eae8e3" width="108" height="104" name="osu" align="middle" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+        </object></span>
+        <h1>osu!</h1><br/><span class="sub_title">the coolest ouendan/eba simulator and editor around</span></a><br/>
+        <div id="navcontainer"><br/>
+            <ul id="navlist">
+                <li id="active"><a href="/">News</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="https://assets.ppy.sh/old-releases/osu_2007-09.zip">Download</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/leaderboard">Player Ranking</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+{% block content %}{% endblock %}
+</body>
+</html>
+

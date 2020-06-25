@@ -1,0 +1,541 @@
+{% extends 'base.html' %}
+{% block title %}Faq{% endblock %}
+
+{% block content%}
+<div id="article">
+    <span class="subject">FAQ</span>
+    <span class="byline"><br></span>
+    <span class="message"><br />
+        <a name="top"></a>
+        <b>Installation and Troubleshooting</b>
+        <br />
+        <a href="#I1">Help! I get an initialization error!</a>
+        <br />
+        <a href="#I2">Help! I get a Direct3D error!</a>
+        <br />
+        <a href="#I3">Videos don't play! Why?</a>
+        <br />
+        <a href="#I4">osume opens a new IE browser and doesn't update!</a>
+        <br />
+        <a href="#I5">Why can't I access the Beatmap listing?</a>
+        <br />
+        <a href="#I6">Something else going wrong?</a>
+        <br />
+        <br />
+        <b>Gameplay</b>
+        <br />
+        <a href="#GP1">I've never played this "Ouendan" thing - what the hell is it?</a>
+        <br />
+        <a href="#GP2">How do I play?!</a>
+        <br />
+        <a href="#GP3">Hit circles</a>
+        <br />
+        <a href="#GP4">Sliders</a>
+        <br />
+        <a href="#GP5">Spinners</a>
+        <br />
+        <a href="#GP6">Game Interface</a>
+        <br />
+        <br />
+        <b>Beatmap Making</b>
+        <br />
+        <a href="#BM1">How do I start a new beatmap?</a>
+        <br />
+        <a href="#BM2">How do I time a song properly?</a>
+        <br />
+        <a href="#BM3">Adding normal hit circles</a>
+        <br />
+        <a href="#BM4">Adding Sliders</a>
+        <br />
+        <a href="#BM5">Adding Spinners</a>
+        <br />
+        <a href="#BM6">What are Combos?</a>
+        <br />
+        <a href="#BM7">How do I add Breaks into my beatmap?</a>
+        <br />
+        <a href="#BM8">What is Beat Spacing?</a>
+        <br />
+        <a href="#BM9">How do I add more difficulty levels for a song?</a>
+        <br />
+        <a href="#BM10">How do I change the background colour?</a>
+        <br />
+        <a href="#BM11">How do I add a background image or video?</a>
+        <br />
+        <a href="#BM12">How do I add custom sounds to my beatmap?</a>
+        <br />
+        <a href="#BM13">How do I submit my beatmap?</a>
+        <br />
+        <br />
+        <b>Skins and Skin Making</b>
+        <br />
+        Coming soon!
+        <br />
+        <br />
+        <b>Miscellaneous</b>
+        <br />
+        <a href="#M1">How do I access the IRC channel?</a>
+        <br />
+        <a href="#M2">It's too hard!!!</a>
+        <br />
+        <a href="#M3">How much time did this take? Future plans?</a>
+        <br />
+        <a href="#M4">Free forever?</a>
+        <br />
+        <br />
+        <hr>
+        <br />
+        <a name="I1"></a>
+        <font color="#ff0040"><b>Help! I get an initialization error!</b></font><br />
+        Make sure you have the <a
+            href="http://www.microsoft.com/downloads/details.aspx?FamilyID=0856EACB-4362-4B0D-8EDD-AAB15C5E04F5&amp;displaylang=en"
+            target="_blank">.NET framework</a> installed.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="I2"></a>
+        <font color="#ff0040"><b>Help! I get a Direct3D error!</b></font><br />
+        Your graphics card may not support DirectX 9. Read <a
+            href="#">this
+            thread</a> by phill for more details.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="I3"></a>
+        <font color="#ff0040"><b>Videos don't play! Why?</b></font><br />
+        Install <a href="http://osu.ppy.sh/ffdshow.zip">ffdshow</a> or
+        equivalent directshow codec. Open up the ffdshow video decoder configuration and make sure it is being used to
+        decode the format in question (usually mpeg2, divx, xvid). If you still encounter troubles, disable video
+        support in options (or seek further help).<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="I4"></a>
+        <font color="#ff0040"><b>osume opens a new IE browser and doesn't update!</b></font><br />
+        See <a
+            href="http://osu.ppy.sh/forum/viewtopic.php?f=5&amp;t=591">this
+            thread</a> for the solution.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="I5"></a>
+        <font color="#ff0040"><b>Why can't I access the Beatmap listing?</b></font><br />
+        You need to register for the forums first. Registration is free and very quick, and as well as giving you the
+        benefit of accessing beatmap downloads, it also allows you to obtain a ranking on the online leaderboards and
+        chat to other players in-game. So there's no excuse not to sign up!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="I6"></a>
+        <font color="#ff0040"><b>Something else going wrong?</b></font><br />
+        If you come across a bug or error not listed above, check out the <a
+            href="http://osu.ppy.sh/forum/viewforum.php?f=5">Bug Reports</a>
+        forum and post there (searching through existing threads first is recommended!). Someone will definitely be
+        around to help! Also - consider <a
+            href="http://osu.ppy.sh/forum/viewtopic.php?f=2&amp;p=89#p89"
+            target="_blank">the osu! IRC channel</a>.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP1"></a>
+        <font color="#ff0040"><b>I've never played this "Ouendan" thing - what the hell is it?</b></font>
+        <br />
+        <br />
+        Oh, ok. Well, Osu! Tatakae! Ouendan is a rhythm game for the Nintendo DS. The gameplay consists of only three
+        elements: tapping circles on the touchscreen, dragging a ball across a fixed path and rotating a spinner very
+        fast. All these elements are timed to (covers of) popular Japanese songs. It looks like this on the DS:<br />
+        <br />
+        <img src="http://osu.ppy.sh/img/ouendan.jpg"
+            src="http://osu.ppy.sh/img/ouendan.jpg" alt=""><br />
+        <br />
+        <br />
+        You can see the circles on the bottom screen, and on the top screen you have the story. Each stage is basically
+        a self-contained story about a person in trouble. That's where the Ouendan (Cheer squad) comes in. Through the
+        magical power of male cheerleading, you have to help the people in trouble.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP2"></a>
+        <font color="#ff0040"><b>How do I play?!</b></font><br />
+        While most PC users won't have a touchscreen at their disposal (unless you are a lucky one to own a tablet PC),
+        this game is made to be playable with a normal mouse, as well as any number of input devices you can possible
+        think of (wiimote works quite well, as does a graphics tablet if you have one of them laying around). There are
+        some songs which push the limits of the normal mouse, but all have been tested and are (somehow) passable using
+        only a mouse. Please don't let the lack of a touchscreen deter you!<br />
+        <br />
+        Let's move on to the gameplay.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP3"></a>
+        <font color="#ff0040"><b>Hit Circles</b></font><br />
+        <br />
+        <img src="http://osu.ppy.sh/img/gp1.jpg"
+            src="http://osu.ppy.sh/img/gp1.jpg" alt=""><br />
+        <br />
+        ^ Here you can see the circles you have to tap. The smaller coloured circle on the outside shrinks and you have
+        to hit the note at the exact point the outside circle overlaps with the white border. Don't rely on your eyes,
+        though: listening to the music to decide the right moment is better.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP4"></a>
+        <font color="#ff0040"><b>Sliders</b></font><br />
+        <br />
+        <img src="http://osu.ppy.sh/img/gp2.jpg"
+            src="http://osu.ppy.sh/img/gp2.jpg" alt=""><br />
+        <br />
+        ^ Here we have a slider thrown into the mix. First, you have to hit it at the right moment, but it doesn't end
+        there. A ball will start to move across the path you see. You have to hold the mousebutton and keep your pointer
+        on the ball as it moves (you do not control the movement yourself). Sometimes, as in the screenshot above, you
+        have to move back at the end of the path. You can tell by the reverse symbol at the end of the path.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP5"></a>
+        <font color="#ff0040"><b>Spinners</b></font><br />
+        <br />
+        <img src="http://osu.ppy.sh/img/gp4.jpg"
+            src="http://osu.ppy.sh/img/gp4.jpg" alt=""><br />
+        <br />
+        ^ This is a spinner. You have to click on the inner yellow-red disc, hold the mouse, and spin like mad before
+        the time runs out. The bars on the outside indicate how close you are to passing. On the DS, these are a good
+        way to scratch your touchscreen (or screen protectors if you're smart), especially on the higher difficulties.
+        In osu!, spinners have been toned down as to not be such a nuisance to complete. While holding a mouse button on
+        a spinner, your <b>mouse is locked into the spin area</b>, so you can go crazy, or just spin very small circles
+        - watch some of the top replays if you are interested in spinning styles!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="GP6"></a>
+        <font color="#ff0040"><b>Game Interface</b></font><br />
+        <br />
+        <img src="http://osu.ppy.sh/img/gp3.jpg"
+            src="http://osu.ppy.sh/img/gp3.jpg" alt=""><br />
+        <br />
+        ^ This is the game interface. The top left bar is your "health". This will decrease at a steady rate, but you
+        can replenish it by hitting notes at the right time. A perfectly timed hit will increase your health more than a
+        badly timed hit. A total miss will take a good chunk out of your health. Next to the health bar is your score.
+        The scoring system takes a while to figure out, but I won't bore you with the details here. The number on the
+        bottom left is the combo counter/score multiplier.<br />
+        <br />
+        Thanks to Eques for some of the text above, which I borrowed from his post <a
+            href="http://www.stage48.net/forum/viewtopic.php?t=616&amp;sid=68bfb06ceccc66706d130bbd09086d52"
+            target="_blank">here</a>. Furthermore, see <a
+            href="http://www.youtube.com/watch?v=v7pIPYNeTDA&amp;feature=PlayList&amp;p=385B26C7B1103914&amp;index=9"
+            target="_blank">these videos</a> for an examples of osu! gameplay.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM1"></a>
+        <font color="#ff0040"><b>How do I start a new beatmap?</b></font><br />
+        As osu! is a rhythm based game, the songs you choose to map should have an obvious and constant beat. Try to
+        avoid songs which have tempo (speed) changes until you are more experienced at beatmapping. To start a new
+        beatmap, follow these simple steps:
+        <ol>
+            <li>Place your song file (in .mp3 or .ogg format) into the <b>/Songs directory</b>, then open osu!.
+                Alternatively, if osu! is already open, you can drag and drop the audio file directly into the osu!
+                window.
+            <li>Open up Edit Mode. Your new song will be at the <b>bottom</b> of the song list, highlighted in <font
+                    color="#8000FF"><b>purple</b></font>.
+            <li>Click on the song to open up Song Setup. Check that the song title and artist are correct, then enter in
+                an appropriate difficulty name (Easy, Insane and Cruisin' are examples).
+            <li>You can set the other options now if you want, but they can be changed later on. Click OK, and you can
+                start beatmapping! The next step is to add timing to your beatmap.
+        </ol>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM2"></a>
+        <font color="#ff0040"><b>How do I time a song properly?</b></font><br />
+        Timing is <b>vital</b> - incorrectly timed maps will not be considered for ranking. Make sure your timing is
+        perfect before putting any notes in. <b>If in doubt about timing, contact a mod for help first</b>, or submit
+        your song into the <a
+            href="http://osu.ppy.sh/forum/viewforum.php?f=10">Beatmap Help
+            forum</a>. This will save a LOT of hassle later on. Here are some tips for getting your timing right:
+        <ul>
+            <li>Watch the <a
+                    href="http://youtube.com/watch?v=eih3jnEqw0A">video
+                    tutorial</a> for basic timing methods.
+            <li>Make sure the ticks of the metronome coincide with the beat of the song <b>for the entire length of the
+                    song</b>. So check the timing at 5%, 25%, 50%, 75% and 100% of the song, at the very least.
+            <li>Take a look at the BPM gauge. If the number is very close to a whole number (eg. 125.02), it is probably
+                (but not always) that whole number (eg. 125). If so, manually enter in the correct BPM using the Timing
+                Setup Panel.
+            <li>For fine-tuning of the offset, slow the song down to 0.5x (or even 0.25x if necessary) and adjust the
+                values until the beats exactly coincide with the metronome ticks.
+            <li>Some songs have multiple BPMs. You can cater for this by adding a timing section (<u>Timing--&gt;Add
+                    Timing Section</u>) where the timing changes. The BPM and offset for the new timing section can be
+                found exactly as before. The Timing Setup Panel gives a list of all timing sections in the song.
+        </ul>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM3"></a>
+        <font color="#ff0040"><b>Adding normal hit circles</b></font><br />
+        This should be a straightforward and intuitive process. Below are some useful tips for Normal-type hit objects:
+        <ul>
+            <li>The grid level can be changed for more precision by going to <u>View--&gt;Grid Level</u>. Notes will
+                automatically snap to the grid.
+            <li>You can override grid snapping and time snapping by <b>holding shift</b> while performing a
+                move/placement action.
+            <li>Right-clicking on a note or a selected group of notes will <b>delete</b> them. Right-clicking elsewhere
+                will toggle a <b>new combo</b>.
+            <li>Common Windows shortcuts also apply in the osu! editor (e.g. Ctrl+A selects all notes, Ctrl+C/V is
+                copy/paste, Ctrl+Z is undo).
+            <li>Notes will snap to <b>visible</b> sliders - so if you want to place a circle exactly on the end of a
+                slider, place it while you can still see the slider and <b>then</b> move it forward/backward in the
+                timeline if necessary.
+        </ul>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM4"></a>
+        <font color="#ff0040"><b>Adding Sliders</b></font><br />
+        Before delving into sliders, do the following two things:
+        <ul>
+            <li>Make sure you set the Slider Velocity (under the <b>Timing tab</b>) to your preferred value. This value
+                will apply for the <b>entire beatmap</b>, so choose carefully! Changing Slider Velocity after placing
+                sliders will result in wonky, mistimed sliders - try and avoid this eventuality!
+            <li>Set the type of slider you want (<u>Options--&gt;Slider Curve Type</u>). There are three types of curves
+                - Catmull, Bezier and Linear. Bezier is recommended as it produces the smoothest looking curves. Linear
+                mode is useful if you want sharp (e.g. 90 degree) corners in your sliders.
+        </ul>
+        Now you can begin adding a slider. <b>Left-click</b> to start the slider, add waypoints with further
+        left-clicks, and terminate with a <b>right-click</b>. It is recommended to make sure the length of the slider is
+        correct before adjusting the shape. Here are some other tips regarding sliders:
+        <ul>
+            <li>To add <b>repeats</b> on a slider, drag the end of the slider in the <b>timeline</b> after finishing
+                placement.
+            <li>Drag an individual waypoint to move it. Right-clicking removes a point, and Ctrl+clicking adds a point.
+                If you want really nice curved sliders, use lots of waypoints!
+            <li>In the same way as hit circles, you can override any snapping by <b>holding shift</b>. This can be
+                useful for aligning sliders perfectly.
+        </ul>
+        Try and put some effort into making your sliders look nice! Lopsided/overlapped/wonky/plain ugly sliders really
+        ruin the look of a beatmap!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM5"></a>
+        <font color="#ff0040"><b>Adding Spinners</b></font><br />
+        To add a spinner to your map, <b>left-click</b> to begin it, then scroll the timeline to where you want the end
+        to be, and terminate with a <b>right-click</b>. Try and keep your spinners to a reasonable length - overly long
+        spinners are tiring and boring, whilst spinners that are too short are not nice. "Spinner spam" is a definite
+        no-no! (Except Wizards in Winter beatmaps)<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM6"></a>
+        <font color="#ff0040"><b>What are Combos?</b></font><br />
+        Combos are groups of notes, essential to the scoring in osu!. Different combos have different colours. It is
+        important that you use combos in your beatmaps - as a rough guide, the maximum length of a combo should be 15-20
+        (but combo lengths of around 10 are better). You can also try and add colour to your beatmaps by using new
+        combos to your advantage!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM7"></a>
+        <font color="#ff0040"><b>How do I add Breaks into my beatmap?</b></font><br />
+        To give players a bit of rest time during a longer beatmap, you should include a Break. To do this, simply leave
+        a gap in the beatmap where you want the break to be, and click the <b>Insert Break Time</b> button in the
+        editor. Note that you must insert a break between two hit objects, so place notes at the start and end to "mark
+        out" the break before inserting one! A couple of rules of thumb are:
+        <ul>
+            <li>Generally, try to keep play segments below one minute long. For example, a two minute song should have
+                at least one break in it near the middle, a three minute song should have at least two breaks evenlyi
+                spaced, etc.
+            <li>Keep break lengths reasonable. Breaks of less than 1 second are pretty pointless, and breaks of 30
+                seconds are boring. Try and aim for 5-10 second breaks.
+        </ul>
+        Here are some <b>advanced</b> tips on planning breaks through the use of <b>Bookmarks</b>:
+        <ul>
+            <li>Before you start the map, play through the song and decide where you want the breaks - try include one
+                at regular intervals.
+            <li>Use bookmarks to mark out the <b>start</b> and <b>end</b> of each break on the timeline!
+            <li>Put in a temporary "marker" (a Normal hitcircle will do) at each bookmark, then click "Insert Break
+                Time" whilst you are in between to add the break.
+            <li>An example is shown below. Note how the breaks are evenly spaced throughout the song and are not too
+                short/long, ensuring the player gets adequate recuperation from their intense clicking marathon, without
+                falling asleep in the meantime!<br />
+                <img src="http://peppy.chigau.com/eyupmarks.jpg">
+            <li>Notice the bookmark at the start of the song also, to mark the first note. Bookmarks are useful! Use
+                them to your advantage.
+        </ul>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM8"></a>
+        <font color="#ff0040"><b>What is Beat Spacing?</b></font><br />
+        For intuitive play, your beatmaps should have good "beat spacing"! <a
+            href="http://peppy.chigau.com/Beat%20Spacing.jpg">A quick
+            illustration of what good and bad beat spacing is can be found here</a>. In general, beats that are close
+        together on the timeline should be close together on the beatmap, and vice versa.<br />
+        <br />
+        The simplest way to ensure beat spacing is correct on your beatmaps is to utilize the editor's <b>Distance
+            Snapping</b> function, found on the right hand side of the editor. The relative distance between notes can
+        be adjusted using the mouse wheel. If you stick to using Distance Snap for the whole song, correct beat spacing
+        is guaranteed!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM9"></a>
+        <font color="#ff0040"><b>How do I add more difficulty levels for a song?</b></font><br />
+        To make a new difficulty level, simply open your existing difficulty, choose <u>File--&gt;Save As...</u> and
+        change the entry in the Difficulty box. Try and add variation between different difficulty levels. Add, take
+        away or rearrange note combinations. At the very least, flip or rotate the notes! Do not simply change the
+        difficulty settings (e.g. HP drain rate) and think that constitutes a new beatmap!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM10"></a>
+        <font color="#ff0040"><b>How do I change the background colour?</b></font><br />
+        Click on the <b>Design Tab</b>. There is a button called "<b>Set BG Colour</b>" which allows you to choose your
+        own background colour.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM11"></a>
+        <font color="#ff0040"><b>How do I add a background image or video?</b></font><br />
+        Click on the <b>Design Tab</b>. There is a button called "<b>Insert Background</b>". When clicked, a dialog box
+        will appear, allowing you to browse to the image or video you want added. The image/video will automatically be
+        copied into the song folder, and will be included when submitting your beatmap. Some notes:
+        <ul>
+            <li><b>Images</b> can be in JPG or PNG format. It is best if you keep them under 800x600 in size.
+            <li><b>Videos</b> should be encoded using DiVX, xvid or similar codecs. Try and remove the audio to save on
+                file size. Also look at <a
+                    href="http://osu.ppy.sh/forum/viewtopic.php?f=10&amp;t=639">this
+                    handy thread</a> by Gilrad for more video editing tips.
+            <li>Images and videos can be removed by deleting them from the song folder.
+        </ul>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM12"></a>
+        <font color="#ff0040"><b>How do I add custom sounds to my beatmap?</b></font><br />
+        Coming soon!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="BM13"></a>
+        <font color="#ff0040"><b>How do I submit my beatmap?</b></font><br />
+        Your pride and joy can be uploaded to the forums using <u>File--&gt;Upload Beatmap</u>. Choose whether you want
+        to submit to the Completed or Beatmap Help forums. The beatmap description and a download link will be
+        automatically posted for you - simply enter a brief message and when the upload is finished, click Submit! Some
+        more notes:
+        <ul>
+            <li>The submitted .osz archives contain all beatmaps for that particular song - along with audio, video and
+                image files.
+            <li>If you choose to post to the Completed forum, it will be reviewed by beatmap moderators and the general
+                public and feedback left for you. If it is deemed to be of good quality, it will be ranked!
+            <li>Post to the Beatmap Help forum if you need help with timing, or want feedback on a partially completed
+                map.
+            <li>If a mod suggests some improvements and you make changes to your beatmap(s), simply follow the same
+                process for uploading as before to update the archive. If you have added any new files (e.g. background
+                image, sound effects) since the last upload, check the "Force re-upload" box in the Upload Beatmap
+                screen and the new archive will be re-uploaded.
+        </ul>
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="M1"></a>
+        <font color="#ff0040"><b>How do I access the IRC channel?</b></font><br />
+        The osu! IRC channel is a great place to report bugs, chat with fellow players and generally hang out. A
+        significant number of mods are active on IRC so bug reports and beatmap help requests are usually answered very
+        quickly there. To join the IRC channel in-game, simply log-in to osu!, press F8 and start chatting!
+        Alternatively, if you have an IRC client, you can join the channel at:<br />
+        <br />
+        <b>Server: </b>irc.ppy.sh<br />
+        <b>Channel: </b>#osu<br />
+        <br />
+        If you don't have an IRC client, a nice free one is <a
+            href="http://www.silverex.org/download">X-Chat2</a>.<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="M2"></a>
+        <font color="#ff0040"><b>It's too hard!!!</b></font><br />
+        Many people have been making beatmaps that are a challenge for themselves, but may be near-impossible or just
+        frightening to beginners. Check out <a
+            href="http://osu.ppy.sh/index.php?p=ranking&amp;s=3&amp;o=0"
+            target="_blank">this list</a> - with beatmaps ordered by their lowest difficulty. Try some of the lower
+        rated ones for some satisfaction and practice!<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="M3"></a>
+        <font color="#ff0040"><b>How much time did this take? Future plans?</b></font><br />
+        In short, a lot. Time doesn't come easily, as I have a full-time programming position to uphold in business
+        hours. I've been working 18 hour days for several months to get osu! to the point it is at the moment, but don't
+        have any plans on slowing down! The <a
+            href="http://osu.ppy.sh/forum/viewtopic.php?f=4&amp;t=895">requested
+            feature list</a> has some very cool stuff in store ;).<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+        <br />
+        <a name="M4"></a>
+        <font color="#ff0040"><b>Free forever?</b></font><br />
+        Yes. There are no plans for any charges nor commercial support (advertising and whatnot). I will happily accept
+        donations of good-will if you enjoy playing the game and can afford to spare some cash :). Rest assured the
+        money will go towards servers to host future ranking/game modes, or at very least keep my motivation in the
+        positive. <a
+            href="https://paypal.me/cutieeee"
+            target="_blank">You can donate here</a> if you wish - thanks in advance (sorry peppy i put my pp.me link).<br />
+        <br />
+        <a href="#top">
+            <font size="1">Back to top</font>
+        </a><br />
+    </span>
+</div>
+</div>
+
+{%endblock%}

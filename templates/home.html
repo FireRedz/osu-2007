@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{%block content%}
+{% if not posts %}
+
+<div id="article">
+    <span class="subject">Welcome to osu-classic!</span>
+    <span class="byline">
+        <img height="64" width="64" src="avatar/1" alt="" />
+        <a href="/u/1">FireRedz</a><br /><br />
+    </span>
+    <span class="message">Welcome to osu-classic. You are currently on the 2007 version of osu-classic, feel free to look about the site, it's the same as the way it was all the way back in 2007!<br>The client seen can be downloaded <a href="https://assets.ppy.sh/old-releases/osu_2007-09.zip">here</a> and can do everything that the <br>2007 osu! client can.</span>
+    <span class="links"></span>
+</div>
+{%endif%}
+
+{% for post in posts%}
+<div id="article">
+    <span class="subject">{{post.postTitle}}</span>
+    <span class="byline">
+        <img height="64" width="64" src='avatar/{{post.postby}}' alt="" />
+        <a href="/u/{{post.postby}}">{{post.username}}</a><br /><br />
+    </span>
+    <span class="message">{{post.post}}</span>
+    <span class="links"></span>
+</div>
+{%endfor%}
+{%endblock%}

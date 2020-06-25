@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}insert name here ae{% endblock %}
+
+
+{%block content%}
+<div id="article">
+    <span class="subject">Profile Page</span>
+<span class="byline">
+    <img height="64" width="64" src='../avatar/{{user.id}}' alt="" />
+    <a href="/u/{{user.id}}">{{user.username}}</a><br/>
+    <a>Accurancy: {{user.accurancy | accRound}}%</a></br>
+    <a>Score: {{user.score}}</a></br>
+    <a>Playcount: {{user.playcount}}</a>
+    
+    
+    <br /><br />
+    <hr/>
+</span>
+<span><center>
+    <div id="scorelist"><table border="0" cellpadding="0" cellspacing="0">
+        <tr><td class="head"><strong></strong></td><td class="head"><strong>Map</strong></td><td class="head">Accuracy</td><td class="head">Score</td><td class="head">Combo</td></tr>
+        {% for play in plays%}
+        <tr class="odd" padding="0"><td><b></b></td><td><a href="/map/{{play.mapHash}}">Map Name</a><a></a></td><td>{{ play.id | calcPlay }}%</td><td>{{play.score}}</td><td>{{play.combo}}</td></tr>
+        {%endfor%}
+    </table>
+</div>
+    
+    </center>
+</span>
+
+</div>
+{%endblock%}

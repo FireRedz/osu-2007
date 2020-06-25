@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock %}
+
+{%block content%}
+<div id="content">
+    <div id="article">
+        <span class="subject">osu! is an ouendan simulator...</span><br />
+        <span class="message">The best place to get some help (after the <a href="/faq">FAQ</a>) or let us
+            know if you've found a bug is the <a href="https://discord.gg/3aJF5Ef">community
+                forums.</a> Register today to secure your username for the online ranking system, and gain access to a
+            large library of songs at the same time!<br /><br />If you just want to chat or hangout, we also have an <a
+                href="">IRC channel</a>
+            going.<br /><strong>Server: </strong>irc.ppy.sh<br /><strong>Channel: </strong> #osu<br /><br />
+
+            osu! has stolen many months away from my life. I don't expect compensation and code this for my own
+            enjoyment as well as others, but nevertheless donations are welcome and much appreciated. Any moneydonated
+            will go directly towards hosting and future development of osu!
+        </span>
+    </div>
+
+    <div id="article">
+            <span class="subject">about osu-classic</span><br />
+            <span class="message">
+                [added by FireRedz]<br/>
+                Well this is quite fun to make in python flask, tho i still cant figure out how to save replay :((<br/>
+                Everything on the frontend is from ilyt's <a href='https://github.com/hzlnut/osu-2007'> remake of osu 2007 server </a> since
+                I'm lazy to create a frontend
+                <br/>
+                <br/>[added by ilyt]<br/>
+                osu-classic is a remake of how osu was in 2007, aimed at bringing back nostalgia to players from the beginning<br>
+                or just to give new players an idea of how osu! once was.
+                It's a fun side project for me (ilyt) and peppy appears to approve of it, so why not!
+            </span>
+        </div>
+    <div id="article">
+        <span class="subject">The Team</span><br />
+        <span class="message">
+            <a
+                href="/u/peppy"><strong>peppy</strong></a>
+            (Dean Herbert) - The primary and only developer behind the code and sprites that makes the game tick. Works
+            as a full-time developer in Western Australia, but spends every minute of his spare time on osu!. Will buy
+            sleep.<br /><br />
+            <strong>Contributers: </strong> Phill (css/web), Kylecito (slider ball), eyup (eyupstars algorithm),
+            Beatmappers (all of you out there :)<br /><br />
+            <strong>Active Testers: </strong>Echo49, Extor, eyup, Ivalset (wow this list is short lately)<br /><br />
+            <strong><a style="color:#FF6600" href="">Beatmap Mods</a>, <a
+                    style="color:#00AA00" href="">Global
+                    moderators</a></strong><br />
+            <br />
+            Hosting of the main osu! server is provided by <a
+                href="">Brave New Games</a>! If you
+            have a free project that needs hosting, please check out their site and get in contact!</br>
+            <br />
+    </div>
+
+    <div id="article">
+        <span class="subject">Screenshots</span><br />
+        <span class="message">
+            <table width="100%">
+                <tr>
+                    <td class="abt"><a href="/static/images/osu0.jpg"><img
+                                src="/static/images/osu0.jpg"></a></td>
+                    <td class="abt"><a href="/static/images/osu1.jpg"><img
+                                src="/static/images/osu1.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td class="abt">Main Menu</td>
+                    <td class="abt">Song Selection</td>
+                </tr>
+                <tr>
+                    <td class="abt"><a href="/static/images/osu2.jpg"><img
+                                src="/static/images/osu2.jpg"></a></td>
+                    <td class="abt"><a href="/static/images/osu3.png"><img
+                                src="/static/images/osu3.png" width="321px" height="240px"></a></td>
+                </tr>
+                <tr>
+                    <td class="abt">Gameplay</td>
+                    <td class="abt">EBA Skinned Gameplay</td>
+                </tr>
+                <tr>
+                    <td class="abt"><a href="/static/images/osu4.png"><img
+                                src="/static/images/osu4.png" width="321px" height="240px"></a></td>
+                    <td class="abt"><a href="/static/images/osu5.png"><img
+                                src="/static/images/osu5.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td class="abt">Ranking</td>
+                    <td class="abt">The Editor</td>
+                </tr>
+            </table>
+        </span>
+    </div>
+
+    <div id="article">
+        <span class="subject">Video</span><br />
+        <span class="message">
+            <center><iframe width="721" height="541" src="https://www.youtube.com/embed/7BEPzORRUZc?list=PL385B26C7B1103914" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </span>
+    </div>
+{%endblock%}
