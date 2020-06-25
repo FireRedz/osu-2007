@@ -3,6 +3,7 @@
 
 
 {%block content%}
+{% if userData %}
 <div id="article">
     <span class="subject">Profile Page</span>
 <span class="byline">
@@ -29,4 +30,12 @@
 </span>
 
 </div>
+{%else%}
+<div id="article">
+<center>
+    <span class="subject">Not Found</span>
+	</center>
+	</div>
+
+{%endif%}
 {%endblock%}
