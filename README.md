@@ -1,3 +1,5 @@
+# lol dont use this
+
 # osu2007server
 osu 2007 server thing that i make in flask
 
