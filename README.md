@@ -27,5 +27,5 @@ Server Frontend is from ilyt's [osu2007 server](https://github.com/hzlnut/osu-20
 
 
 ## Disclaimer
-idk if the code is bad or not but it works so i guess i just leave it as it is for now... <br/>
+~~idk if the code is bad or not but it works so i guess i just leave it as it is for now... <br/>~~
 EDIT 20 MAY 2021: this shit sucks dont use it :rage:
